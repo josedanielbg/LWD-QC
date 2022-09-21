@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 import streamlit as st
 from io import StringIO
 st.title("LWD Log Quality Control Algorithm")
-uploaded_file=st.file_uploader("Upload your file here")
+uploaded_file=st.file_uploader("Suba su .las aca para empezar el proceso")
 if uploaded_file:
     bytes_data= uploaded_file.read()
     str_io=StringIO(bytes_data.decode('Windows-1252'))
