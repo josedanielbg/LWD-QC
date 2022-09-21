@@ -1,28 +1,10 @@
 
-from re import S
-from turtle import update
 import pandas as pd
 import lasio
 import matplotlib.pyplot as plt
 import numpy as np
-from dtaidistance import dtw
-from dtaidistance import dtw_visualisation as dtwvis
-from matplotlib.patches import ConnectionPatch
-import scipy.spatial.distance as dist
-import dtaidistance
-import array
-from scipy import stats
-from fastdtw import fastdtw
-from scipy.spatial.distance import euclidean
-from openpyxl.workbook import Workbook
-import matplotlib.dates as mdates
-import matplotlib.cbook as cbook
-from datetime import datetime
 import pandas as pd
 import cufflinks as cf
-from IPython.display import display,HTML
-cf.set_config_file(sharing='public',theme='ggplot',offline=True)
-import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import streamlit as st
