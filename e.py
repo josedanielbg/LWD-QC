@@ -4,7 +4,6 @@ import lasio
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import cufflinks as cf
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import streamlit as st
