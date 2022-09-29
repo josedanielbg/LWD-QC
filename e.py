@@ -14,7 +14,7 @@ uploaded_file=st.file_uploader("Suba su .las aca para empezar el proceso")
     #bytes_data= uploaded_file.read()
     #str_io=StringIO(bytes_data.decode('Windows-1252'))
     #las= lasio.read(str_io)
-las = lasio.read("https://github.com/josedanielbg/LWD-QC/blob/main/ALD%20PALOGRANDE.las")
+las = lasio.read("ALD PALOGRANDE.las")
 # In[ ]:
 df = las.df()
 # In[ ]:
